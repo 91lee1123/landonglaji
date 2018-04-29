@@ -1,4 +1,4 @@
-const appData = {
+﻿const appData = {
   autoRefresh: true,
   refreshInterval: 1000,
   gsTime: 0,
@@ -292,7 +292,7 @@ function getMapSource (mapType) {
     ? 'erangel/v11'
     : 'miramar/v5'
   // if false, will use https://tiles2-v2.pubgmap.net/tiles/erangel/v11/{z}/{x}/{y}.png not sure if it is stable or not. But it will have more zoom, up to 5. Local only has up to 4
-  let useLocalResource = false
+  let useLocalResource = true
   const mapBase = useLocalResource
     ? '../maptiles'
     : 'https://tiles2-v2.pubgmap.net/tiles'
@@ -963,7 +963,7 @@ function getMapSource (mapType) {
     ? 'erangel/v11'
     : 'miramar/v5'
   // if false, will use https://tiles2-v2.pubgmap.net/tiles/erangel/v11/{z}/{x}/{y}.png not sure if it is stable or not. But it will have more zoom, up to 5. Local only has up to 4
-  let useLocalResource = false
+  let useLocalResource = true
   const mapBase = useLocalResource
     ? '../maptiles'
     : 'https://tiles2-v2.pubgmap.net/tiles'
@@ -2007,7 +2007,7 @@ function getMapSource (mapType) {
     ? 'erangel/v11'
     : 'miramar/v5'
   // if false, will use https://tiles2-v2.pubgmap.net/tiles/erangel/v11/{z}/{x}/{y}.png not sure if it is stable or not. But it will have more zoom, up to 5. Local only has up to 4
-  let useLocalResource = false
+  let useLocalResource = true
   const mapBase = useLocalResource
     ? '../maptiles'
     : 'https://tiles2-v2.pubgmap.net/tiles'
